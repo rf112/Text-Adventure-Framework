@@ -10,3 +10,6 @@ C:\Users\Ryan\Source\Repos\diceRoller\Text Adventure Framework\Text Adventure Fr
 C:\Users\Ryan\Documents\Working Directory\Text Adventure Framework\Text Adventure Framework\bin\Debug\Text Adventure Framework.exe.config
 C:\Users\Ryan\Documents\Working Directory\Text Adventure Framework\Text Adventure Framework\obj\Debug\Text Adventure Framework.exe
 C:\Users\Ryan\Documents\Working Directory\Text Adventure Framework\Text Adventure Framework\obj\Debug\Text Adventure Framework.pdb
+C:\Users\Ryan\Source\Repos\Text-Adventure-Framework\Text Adventure Framework\bin\Debug\Text Adventure Framework.exe.config
+C:\Users\Ryan\Source\Repos\Text-Adventure-Framework\Text Adventure Framework\obj\Debug\Text Adventure Framework.exe
+C:\Users\Ryan\Source\Repos\Text-Adventure-Framework\Text Adventure Framework\obj\Debug\Text Adventure Framework.pdb

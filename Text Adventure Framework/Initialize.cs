@@ -12,6 +12,7 @@ namespace Text_Adventure_Framework
 {
     public partial class Initialize : Form
     {
+        //Globals For use in stat selection logic
         decimal strSel;
         decimal dexSel;
         decimal conSel;
@@ -20,6 +21,11 @@ namespace Text_Adventure_Framework
         decimal charSel;
         bool increase;
 
+
+
+
+
+        //Behaviors
         public Initialize()
         {
             InitializeComponent();
@@ -30,26 +36,26 @@ namespace Text_Adventure_Framework
             classSelect.SelectedIndex = 0;
         }
 
-        private void strengthNum_ValueChanged(object sender, EventArgs e)
+        private void strengthNum_ValueChanged(object sender, EventArgs e) //Event Handler for controlling the stat selection. Identical methods for all stat selection boxes.
         {
-            decimal tot;
+            decimal tot; //total points allocated.
 
-            if (strengthNum.Value > strSel)
+            if (strengthNum.Value > strSel) //Checks to see if the user tried to increase the points attributed to a category.
             {
-                increase = true;
+                increase = true; //if there was a commanded increase, sets the global increase to true.
             }
 
-            tot = strengthNum.Value + dexterityNum.Value + constitutionNum.Value + intelligenceNum.Value + wisdomNum.Value + charismaNum.Value;
+            tot = strengthNum.Value + dexterityNum.Value + constitutionNum.Value + intelligenceNum.Value + wisdomNum.Value + charismaNum.Value; //gives the tot a value equal to the sum of all selected skill points.
 
-            if (tot > 25 && increase == true)
+            if (tot > 25 && increase == true) //If the total selected skill points is greater than the maximum (25) and an increase was commanded.
             {
-                strengthNum.Value -= 1;
+                strengthNum.Value -= 1; //removes the point the user tried to add that would have gone over the maximum allowed points.
             }
 
-            tot = 25 - (strengthNum.Value + dexterityNum.Value + constitutionNum.Value + intelligenceNum.Value + wisdomNum.Value + charismaNum.Value);
-            strSel = strengthNum.Value;
+            tot = 25 - (strengthNum.Value + dexterityNum.Value + constitutionNum.Value + intelligenceNum.Value + wisdomNum.Value + charismaNum.Value); //Uses the tot variable to store how many points remain for selection
+            strSel = strengthNum.Value; //sets the value select box to the appropriate value after the logic has finished.
 
-            totalStat.Text = tot.ToString();
+            totalStat.Text = tot.ToString(); //Updates the displayed total points remaining based on user selections.
         }
 
         private void dexterityNum_ValueChanged(object sender, EventArgs e)
@@ -73,7 +79,7 @@ namespace Text_Adventure_Framework
 
             totalStat.Text = tot.ToString();
 
-        }
+        } //Identical Event Handler for controlling stat selection. Only changes are the value box controlled.
 
         private void constitutionNum_ValueChanged(object sender, EventArgs e)
         {
@@ -96,7 +102,7 @@ namespace Text_Adventure_Framework
 
             totalStat.Text = tot.ToString();
 
-        }
+        }  //Identical Event Handler for controlling stat selection. Only changes are the value box controlled.
 
         private void intelligenceNum_ValueChanged(object sender, EventArgs e)
         {
@@ -119,7 +125,7 @@ namespace Text_Adventure_Framework
 
             totalStat.Text = tot.ToString();
 
-        }
+        }  //Identical Event Handler for controlling stat selection. Only changes are the value box controlled.
 
         private void wisdomNum_ValueChanged(object sender, EventArgs e)
         {
@@ -142,7 +148,7 @@ namespace Text_Adventure_Framework
 
             totalStat.Text = tot.ToString();
 
-        }
+        }  //Identical Event Handler for controlling stat selection. Only changes are the value box controlled.
 
         private void charismaNum_ValueChanged(object sender, EventArgs e)
         {
@@ -165,6 +171,6 @@ namespace Text_Adventure_Framework
 
             totalStat.Text = tot.ToString();
 
-        }
+        }  //Identical Event Handler for controlling stat selection. Only changes are the value box controlled.
     }
 }
