@@ -1,0 +1,12 @@
+C:\Users\Ryan\Source\Repos\diceRoller\Text Adventure Framework\Text Adventure Framework\bin\Debug\Text Adventure Framework.exe.config
+C:\Users\Ryan\Source\Repos\diceRoller\Text Adventure Framework\Text Adventure Framework\bin\Debug\Text Adventure Framework.exe
+C:\Users\Ryan\Source\Repos\diceRoller\Text Adventure Framework\Text Adventure Framework\bin\Debug\Text Adventure Framework.pdb
+C:\Users\Ryan\Source\Repos\diceRoller\Text Adventure Framework\Text Adventure Framework\obj\Debug\Text Adventure Framework.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\Source\Repos\diceRoller\Text Adventure Framework\Text Adventure Framework\obj\Debug\Text_Adventure_Framework.Initialize.resources
+C:\Users\Ryan\Source\Repos\diceRoller\Text Adventure Framework\Text Adventure Framework\obj\Debug\Text_Adventure_Framework.Properties.Resources.resources
+C:\Users\Ryan\Source\Repos\diceRoller\Text Adventure Framework\Text Adventure Framework\obj\Debug\Text Adventure Framework.csproj.GenerateResource.Cache
+C:\Users\Ryan\Source\Repos\diceRoller\Text Adventure Framework\Text Adventure Framework\obj\Debug\Text Adventure Framework.exe
+C:\Users\Ryan\Source\Repos\diceRoller\Text Adventure Framework\Text Adventure Framework\obj\Debug\Text Adventure Framework.pdb
+C:\Users\Ryan\Documents\Working Directory\Text Adventure Framework\Text Adventure Framework\bin\Debug\Text Adventure Framework.exe.config
+C:\Users\Ryan\Documents\Working Directory\Text Adventure Framework\Text Adventure Framework\obj\Debug\Text Adventure Framework.exe
+C:\Users\Ryan\Documents\Working Directory\Text Adventure Framework\Text Adventure Framework\obj\Debug\Text Adventure Framework.pdb
